@@ -1,0 +1,60 @@
+html, body{
+	height:100%;
+	margin: 0px;
+	padding: 0px;
+	font-family:Arial;
+	font-size: 14px;
+	text-align: center;
+	color: black;
+}
+
+.item1{
+    height: 44px;
+    background: #FFA319;
+    color: #CC7A00;
+    border-bottom: 1px solid;
+	width: 100%;
+}
+
+.item{
+    height: 44px;
+    background: #FFB547;
+    color: black;
+    border-bottom: 1px solid;
+	width: 100%;
+	
+	overflow: hidden;
+}
+
+li {
+	list-style: none;
+}
+
+h1, footer {
+	font-size: 20px;
+    text-align: center;
+	line-height: 44px;
+    margin: 0px;
+	color: black;
+}
+
+a {
+	font-size: 20px;
+    text-align: center;
+	line-height: 44px;
+    margin: 0px;
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+#paginaInicial{
+	display:block;
+}
+#paginaVitaminaA, #paginaVitaminaB, #paginaVitaminaC, #paginaVitaminaD, #paginaVitaminaE {
+	display:none;
+}
+
+#paginaVitaminaA:target, #paginaVitaminaB:target, #paginaVitaminaC:target, #paginaVitaminaD:target, #paginaVitaminaE:target {
+	display: block;
+}
